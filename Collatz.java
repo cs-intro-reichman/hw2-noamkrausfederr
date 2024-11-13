@@ -44,7 +44,7 @@ public class Collatz {
 		// recieve it properly because it reads 1 letter as a char and not a string
 		char c = mode.charAt(0);
 		if (c == 'v') {
-			System.out.println(outputPrint);
+			System.out.print(outputPrint);
 			System.out.println("Every one of the first " + n +
 							   " hailstone sequences reached 1.");
 		}

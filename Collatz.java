@@ -46,11 +46,11 @@ public class Collatz {
 		if (c == 'v') {
 			System.out.println(outputPrint);
 			System.out.println("Every one of the first " + n +
-							   " hailstone sequences reached 1");
+							   " hailstone sequences reached 1.");
 		}
 		else if (c == 'c') {
 			System.out.println("Every one of the first " + n +
-							   " hailstone sequences reached 1");
+							   " hailstone sequences reached 1.");
 		}
 	}
 }

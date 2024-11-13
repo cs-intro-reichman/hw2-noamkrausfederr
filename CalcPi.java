@@ -24,7 +24,7 @@ public class CalcPi {
 		}
 
 		// to get the approximated pi i multiply the sum by 4
-		pi = sum * 4;
+		pi = sum * 4.0;
 		
 		System.out.println("pi, approximated: " + pi);
 

@@ -2,6 +2,7 @@
 public class Cheers {
         public static void main(String[] args) {
 	    String cheer = args[0];
+            cheer = cheer.toUpperCase();
             int times = Integer.parseInt(args[1]);
             String specialCase = "";
         
